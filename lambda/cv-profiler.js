@@ -16,6 +16,7 @@ module.exports.handler = async function (event, context) {
   } else if (event.httpMethod === "POST") {
     const fields = JSON.parse(event.body);
 
+    //test commit
     console.log(fields);
 
     const schimpfworte = [
